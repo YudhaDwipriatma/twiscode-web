@@ -20,25 +20,29 @@ const Home = Loadable({
   loading
 });
 
-const About = Loadable({
-  loader: () => import('../containers/about/About'),
+const Contact = Loadable({
+  loader: () => import('../containers/contact/Contact'),
   loading
 });
+// const About = Loadable({
+//   loader: () => import('../containers/about/About'),
+//   loading
+// });
 
-const NotFound = Loadable({
-  loader: () => import('../containers/404/404'),
-  loading
-});
+// const NotFound = Loadable({
+//   loader: () => import('../containers/404/404'),
+//   loading
+// });
 
-const Blog = Loadable({
-  loader: () => import('../containers/blog/Blog'),
-  loading
-});
+// const Blog = Loadable({
+//   loader: () => import('../containers/blog/Blog'),
+//   loading
+// });
 
-const BlogDetail = Loadable({
-  loader: () => import('../containers/blogDetail/BlogDetail'),
-  loading
-});
+// const BlogDetail = Loadable({
+//   loader: () => import('../containers/blogDetail/BlogDetail'),
+//   loading
+// });
 
 export default [
   {
@@ -51,24 +55,30 @@ export default [
         exact: true
       },
       {
-        component: About,
-        path: '/about',
+        component: Contact,
+        path: '/contact',
         exact: true
       },
-      {
-        component: Blog,
-        path: '/blog',
-        exact: true
-      },
-      {
-        component: BlogDetail,
-        path: '/blog/:id',
-        exact: true
-      },
-      {
-        component: NotFound,
-        path: '*'
-      }
+      
+      // {
+      //   component: About,
+      //   path: '/about',
+      //   exact: true
+      // },
+      // {
+      //   component: Blog,
+      //   path: '/blog',
+      //   exact: true
+      // },
+      // {
+      //   component: BlogDetail,
+      //   path: '/blog/:id',
+      //   exact: true
+      // },
+      // {
+      //   component: NotFound,
+      //   path: '*'
+      // }
     ]
   }
 ];
