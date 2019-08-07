@@ -33,7 +33,7 @@ const ContactHome = () => {
          </div>
          <div className="contact">
              <b>
-             <p className="hi"><img src="/public/img/Group 79.png" alt=""/>   Hi! What's your name? *</p>
+             <p className=""><img src="/public/img/Group 79.png" alt=""/>   Hi! What's your name? *</p>
              </b>
          </div>
         
