@@ -9,9 +9,10 @@ const HomeAbout = () => (
         <div className=" col-lg-6 col-md-6" >
           <div className="section-title">
             
-            <h2 className="mb-4 text-center">
+            <hr width="20%" align="right"></hr><h2 className="mb-4 text-center">
+
               About Us
-            </h2>
+              </h2><hr></hr>
             
           </div>
           <div
