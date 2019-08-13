@@ -1,6 +1,8 @@
 //--------- Start Banner Area -------------//
 .home-banner-area {
   background-image: url(public/img/background1.png);
+  background-repeat: no-repeat;
+  background-position: left;
   position: relative;
   background-size:cover;
   .fullscreen {

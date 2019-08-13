@@ -1,39 +1,74 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React from 'react';
+import React from "react";
+import {
+  Collapse,
+  Navbar,
+  NavbarToggler,
+  NavbarBrand,
+  Nav,
+  NavItem,
+  UncontrolledDropdown,
+  DropdownToggle,
+  DropdownMenu,
+  DropdownItem
+} from "reactstrap";
 
-import { NavLink } from 'react-router-dom';
+import { NavLink } from "react-router-dom";
 
-const Header = () => (
-  <header id="header">
-    <div className="container main-menu">
-      <div className="row align-items-center d-flex">
-        <div id="logo">
-          <NavLink to="/">
-            <img src="/public/img/logo.png" alt="" title="" />
-          </NavLink>
+export default class Example extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.toggle = this.toggle.bind(this);
+    this.state = {
+      isOpen: false
+    };
+  }
+
+  toggle() {
+    this.setState({
+      isOpen: !this.state.isOpen
+    });
+  }
+
+  render() {
+    const { style, isSticky } = this.props;
+    return (
+      <header
+        className={isSticky ? `header bg-nav shadow-sm sticky` : `header`}
+        style={style}
+      >
+        <div className="container main-menu">
+          <Navbar light expand="md">
+            <NavbarToggler onClick={this.toggle} />
+
+            <NavbarBrand href="/">
+              <img src="../../public/img/logo.png" alt="" />
+            </NavbarBrand>
+
+            <Collapse isOpen={this.state.isOpen} navbar>
+              <Nav className="ml-auto d-flex align-items-center" navbar>
+                <NavItem>
+                  <NavLink to="/">HOME</NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink to="/">PORTOFOLIO</NavLink>
+                </NavItem>
+                <NavItem>
+                <NavLink to="/">CAREERS</NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink to="/contact">CONTACT US</NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink to="/">PRIVACY POLICY</NavLink>
+                </NavItem>
+              </Nav>
+            </Collapse>
+          </Navbar>
         </div>
-        <nav id="nav-menu-container">
-          <ul className="nav-menu">
-            <li>
-              <NavLink to="/about">HOME</NavLink>
-            </li>
-            <li>
-              <NavLink to="/blog">PORTFOLIO</NavLink>
-            </li>
-            <li>
-              <NavLink to="/blog">CAREERS</NavLink>
-            </li>
-            <li>
-              <NavLink to="/contact">CONTACT US</NavLink>
-            </li>
-            <li>
-              <NavLink to="/blog">PRIVACY POLICY</NavLink>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-  </header>
-);
+      </header>
+    );
+  }
+}
 
-export default Header;
