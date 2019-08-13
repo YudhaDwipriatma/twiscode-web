@@ -28,7 +28,7 @@ const ContactHome = () => {
          </div>
       
          <div>
-             <img src="/public/img/flamenco-message-sent.png" alt="" width="100px"/>
+             <img className="img-contact" src="/public/img/flamenco-message-sent.png" alt="" width="100px"/>
              <hr/>
          </div>
          <div className="contact">

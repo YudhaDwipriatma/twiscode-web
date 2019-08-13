@@ -14,9 +14,14 @@ const Home = () => (
     <HomeBanner />
     <HomeAbout />
     <HomeService />
+    <br/>
+    <br/>
+    <br/>
     <HomeKerjasama /> 
     <HomeSlide /> 
     <HomeProject />
+    <br/>
+    <br/>
     <HomeTeam />
     <HomeNomer />
   </div>

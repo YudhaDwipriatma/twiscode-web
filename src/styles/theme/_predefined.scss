@@ -97,7 +97,7 @@
     margin-bottom: 10px;
   }
   h2 {
-    font-size: 45px;
+    font-size: 42px;
     font-weight: 500;
     text-transform: capitalize;
     line-height: 50px;
@@ -279,4 +279,49 @@
       }
     }
   }
+}
+
+.work{
+  font-size: 42px;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 50px;
+    text-align: center;
+}
+
+.custom{
+  font-size: 42px;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 50px;
+    text-align: center;
+}
+
+.team{
+  font-size: 42px;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 50px;
+    text-align: center;
+}
+
+.img-contact{
+  margin-right: 10px;
+  margin-left: -117px;
+  margin-top: -91px;
+}
+
+h2.no-span {
+  display: table;
+  white-space: nowrap;
+  &:before, &:after {
+    border-top: 2px solid #9CCC36;
+    content: '';
+    display: table-cell;
+    position: relative;
+    top: 0.7em;
+    width: 45%;
+  }
+  &:before { right: 1.5%; }
+  &:after { left: 1.5%; }
 }
