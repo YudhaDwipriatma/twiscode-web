@@ -33,7 +33,7 @@ const Footer = () => (
         </div>
         <div className="col-lg-2 col-md-6 col-sm-6 social-widget">
           <div className="single-footer-widget">
-            <div className="footer-social d-flex align-items-center">
+            <div className="footer-link">
               <a href="#">
                 <img src="../../public/img/fb.png" alt="" width="10px"/>
               </a>
