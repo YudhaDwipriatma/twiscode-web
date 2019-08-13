@@ -643,6 +643,7 @@ pre code {
 
 /* line 6, /Applications/MAMP/htdocs/naim/color-lib/144 Proshoot Photography/scss/bootstrap/_grid.scss */
 .container {
+  padding-top: 100px;
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -680,6 +681,7 @@ pre code {
 
 /* line 18, /Applications/MAMP/htdocs/naim/color-lib/144 Proshoot Photography/scss/bootstrap/_grid.scss */
 .container-fluid {
+  padding-top: 170px;
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;

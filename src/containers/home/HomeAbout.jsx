@@ -12,7 +12,7 @@ const HomeAbout = () => (
             <hr width="20%" align="right"></hr><h2 className="mb-4 text-center">
 
               About Us
-              </h2><hr></hr>
+              </h2><hr className="line" width="20%" align="left"></hr>
             
           </div>
           <div

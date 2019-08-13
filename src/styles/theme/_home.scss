@@ -9,6 +9,12 @@
       height: 600px;
     }
   }
+  .wrapper-team{
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+  
   .card-body{
    box-shadow:black;
    color: red;
@@ -17,7 +23,12 @@
   .contact{
     margin-bottom: 100px;
   }
-  
+  .line hr{
+    margin-top: 100px;
+  }
+  .card-body{
+    border-radius: 100%;
+}
   .container-fluid {
     padding-left: 21%;
     @media (max-width: 1480px) {

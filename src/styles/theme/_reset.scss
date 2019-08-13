@@ -66,6 +66,12 @@ a {
   @include transition(all 0.3s ease 0s);
 }
 
+
+.wrapper-team{
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
 iframe {
   border: 0;
 }
@@ -501,6 +507,7 @@ th {
   padding: 75px 0;
 }
 .text-center {
+  padding-left: 0px;
   text-align: center;
 }
 .text-left {
