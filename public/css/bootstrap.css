@@ -37,11 +37,6 @@
 }
 
 /* line 21, /Applications/MAMP/htdocs/naim/color-lib/144 Proshoot Photography/scss/bootstrap/_reboot.scss */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
 
 /* line 27, /Applications/MAMP/htdocs/naim/color-lib/144 Proshoot Photography/scss/bootstrap/_reboot.scss */
 html {

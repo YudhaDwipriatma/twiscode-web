@@ -43,13 +43,12 @@ export default class Responsive extends Component {
 
       <section className="">
       <div className="container-fluid">
-<<<<<<< HEAD
+
       <div className="wrapper-team">
         <h2 className="text-center"> MEET OUR TEAM. </h2>
-=======
+
       <div className="slider">
         <h2 className="team text-center no-span"> MEET OUR TEAM. </h2>
->>>>>>> master
         <p className="text-muted text-center">We have teams of great developers ready to help you grow your business</p>
 
     
@@ -224,6 +223,7 @@ export default class Responsive extends Component {
          
    
         </Slider>
+      </div>
       </div>
         </div>
           </section>
