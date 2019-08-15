@@ -39,7 +39,7 @@
   font-weight: 300;
 }
 body {
-  background-image: url(../../public/img/background.png);
+  // background-image: url(../../public/img/background.png);
   color: $text-color;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 15px;
@@ -512,6 +512,7 @@ th {
 .text-center {
   padding-left: 0px;
   text-align: center;
+  margin-left: -16px;
 }
 .text-left {
   text-align: left;

@@ -90,17 +90,8 @@ padding-bottom: 32px;
   object-fit: contain;
 }
 .twitter {
-  margin-left: 1130px;
-  width: 27.2px;
+  width: 18.1px;
   height: 22.1px;
-  object-fit: contain;
-  /* margin-bottom: -36px; */
-  margin-top: -51px;
-}
-.fb {
-  margin-left: 1100px;
-  width: 12.5px;
-  height: 22.7px;
   object-fit: contain;
 }
 .no-social {
@@ -250,6 +241,24 @@ padding-bottom: 32px;
   i {
     color: $primary-color;
   }
+}
+
+.fb {
+  width: 18.1px;
+  height: 22.1px;
+  object-fit: contain;
+}
+
+.pinterest{
+  margin-top: 10px;
+}
+
+.dribble{
+  margin-top: 10px;
+}
+
+.linkedin{
+  margin-top: 10px;
 }
 
 //--------- end footer Area -------------//

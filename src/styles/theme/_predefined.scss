@@ -69,6 +69,7 @@
 
 .section-gap {
   padding: 140px 0;
+  margin-top: -180px;
   
   @media (max-width: 991px) {
     padding: 70px 0;
@@ -324,4 +325,42 @@ h2.no-span {
   }
   &:before { right: 1.5%; }
   &:after { left: 1.5%; }
+}
+
+.logo-satu{
+  margin-left: 115px;
+}
+
+.logo-dua{
+  margin-left: 94px;
+}
+
+.logo-tiga{
+  margin-left: 10px;
+}
+
+.logo-empat{
+  margin-left: -107px;
+}
+
+.logo-slide{
+  width: 28%;
+  margin-left: 323px;
+}
+
+.card-texts{
+  width: 511px;
+  height: 99px;
+  object-fit: contain;
+  font-family: HKGrotesk;
+  font-size: 28px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.18;
+  letter-spacing: normal;
+  text-align: center;
+  color: #62713e;
+  margin-left: 210px;
+  margin-top: 33px;
 }

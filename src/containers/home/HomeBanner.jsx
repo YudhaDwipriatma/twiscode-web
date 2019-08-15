@@ -5,17 +5,14 @@ const HomeBanner = () => (
   <section className="home-banner-area">
     <div className="container-fluid">
       <div className="row fullscreen d-flex align-items-center">
-        <div className="banner-content col-lg-4 col-md-12 justify-content-center ">
+        <div className="banner-content col-lg-4 col-md-12 justify-content-center " style={{marginLeft:'-43px'}}>
           <h1
             className="wow fadeIn"
             data-wow-duration="1s"
             data-wow-delay=".6s"
           >
-           Welcome to twiscode.
-           
-          </h1>
-          <h1>
-          Develope anything.
+           Welcome to twiscode
+           Develope anything.
           </h1>
           <div
             className="designation mb-25 wow fadeIn"
@@ -33,7 +30,7 @@ const HomeBanner = () => (
           </a>
         </div>
         <div className="banner-img offset-lg-1 col-lg-7 col-md-6">
-          <img className="img-fluid" src="/public/img/icon1.png" alt="" />
+          <img className="img-fluid" src="/public/img/icon1.png" alt="" style={{marginLeft:'475px', marginTop:'-439px', marginBottom:'194px'}} />
         </div>
         
       </div>

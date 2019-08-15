@@ -43,7 +43,7 @@ export default class Example extends React.Component {
             <NavbarToggler onClick={this.toggle} />
 
             <NavbarBrand href="/">
-              <img src="../../public/img/logo.png" alt="" />
+              <img className="logo-twis" src="../../public/img/home/logo twiscode-22.png" alt="" />
             </NavbarBrand>
 
             <Collapse isOpen={this.state.isOpen} navbar>

@@ -9,11 +9,9 @@ const HomeAbout = () => (
         <div className=" col-lg-6 col-md-6" >
           <div className="section-title">
             
-            <hr width="20%" align="right"></hr><h2 className="mb-4 text-center">
-
+              <h2 className="mb-4 text-center no-span">
               About Us
-              </h2><hr className="line" width="20%" align="left"></hr>
-            
+              </h2>
           </div>
           <div
             className="mb-35 wow fadeIn text-center"
