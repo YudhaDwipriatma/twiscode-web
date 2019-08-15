@@ -8,6 +8,7 @@ import HomeProject from './HomeProject';
 import HomeSlide from './HomeSlide';
 import HomeTeam from './HomeTeam';
 import HomeNomer from './HomeNomer';
+import HomeFooter from './HomeFooter';
 
 const Home = () => (
   <div>
@@ -24,6 +25,7 @@ const Home = () => (
     <br/>
     <HomeTeam />
     <HomeNomer />
+    <HomeFooter />
   </div>
 );
 
