@@ -11,24 +11,7 @@ const HomeFooter = () => {
               <div className="single-footer-widget">
                 <div className="no-socia ld-flex align-items-center">
         
-                <a href="#">
-                <img className="fb" src="../../public/img/fb.png" alt="" width="10px"/>
-              </a>
-              <a href="#">
-              <img className="twitter" src="../../public/img/twitter.png" alt="" width="20px"/>
-              </a>
-              <a>
-              <img className="twitter" src="../../public/img/home/pi nterest.png" alt="" width="20px"/>
-              </a>
-              <a href="#">
-              </a>
-              <a href="#">
-              <img className="footer-img" src="../../public/img/dribble.png" alt="" width="20px" />
-              </a>
-              <a href="#">
-              <img className="footer-img" src="../../public/img/linkedin.png" alt="" width="20px"/>
-              </a>
-    
+          
                   </div>
                   
               </div>
@@ -37,6 +20,9 @@ const HomeFooter = () => {
           <p className="footer-text">
             @2019 Twistcode All rights reserved
           </p>
+          <a href="#">
+                <img className="fb" src="../../public/img/fb.png" alt="" width="10px"/>
+              </a>
             </div>
             </div>
             </div>
