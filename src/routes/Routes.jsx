@@ -24,18 +24,15 @@ const Contact = Loadable({
   loader: () => import('../containers/contact/Contact'),
   loading
 });
-<<<<<<< HEAD
 const Privacy = Loadable({
   loader: () => import('../containers/privacy/PrivacyPolice'),
   loading
 });
-=======
 const Careers = Loadable({
   loader: () => import('../containers/careers/Careers'),
   loading
 });
 
->>>>>>> 8af0f871c17857db6d25f20547ce3f019e5b67c0
 // const About = Loadable({
 //   loader: () => import('../containers/about/About'),
 //   loading
@@ -72,13 +69,13 @@ export default [
         exact: true
       },
       {
-<<<<<<< HEAD
         component: Privacy,
         path: '/privacy',
-=======
+        exact: true
+      },
+      {
         component: Careers,
         path: '/careers',
->>>>>>> 8af0f871c17857db6d25f20547ce3f019e5b67c0
         exact: true
       },
       
