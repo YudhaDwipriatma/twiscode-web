@@ -30,6 +30,7 @@ const ContactHome = () => {
          <div className="line-contact">
            <hr/>
          </div>
+         <div className="contact-home">
          <div className="contact">
              <b>
                <div className="hi-contact">
@@ -40,7 +41,7 @@ const ContactHome = () => {
              </div>
              </b>
               <div>
-             <button type="button" className="btn button-contact">Done</button>
+             <button type="button" className="btn button-contact" >Done</button>
              <p className="enter">press ENTER</p>
              </div>
          </div>
@@ -71,6 +72,7 @@ const ContactHome = () => {
              </div>
          </div>
          <img className="icon-contact" src="../../public/img/home/icon1.png" alt=""/>
+       </div>
        </div>
      </div>
    </div>

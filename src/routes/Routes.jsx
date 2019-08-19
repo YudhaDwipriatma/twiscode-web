@@ -24,6 +24,11 @@ const Contact = Loadable({
   loader: () => import('../containers/contact/Contact'),
   loading
 });
+const Careers = Loadable({
+  loader: () => import('../containers/careers/Careers'),
+  loading
+});
+
 // const About = Loadable({
 //   loader: () => import('../containers/about/About'),
 //   loading
@@ -57,6 +62,11 @@ export default [
       {
         component: Contact,
         path: '/contact',
+        exact: true
+      },
+      {
+        component: Careers,
+        path: '/careers',
         exact: true
       },
       
