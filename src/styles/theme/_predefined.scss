@@ -42,6 +42,7 @@
   z-index: 9999999;
   opacity: 0;
   @include transition();
+  
   a {
     background: $primary-color;
     display: block;
@@ -346,11 +347,7 @@
   margin-left: 110px;
 }
 
-.img-contact{
-  margin-right: 10px;
-  margin-left: -117px;
-  margin-top: -91px;
-}
+
 
 h2.no-span {
   display: table;

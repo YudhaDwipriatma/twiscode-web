@@ -1,12 +1,12 @@
 import React from 'react';
-import ContactHome from './ContactHome';
+import CareersHome from './CareersHome';
 import HomeFooter from '../home/HomeFooter';
 
 
 const Contact = () => {
     return (
         <div>
-            <ContactHome />
+            <CareersHome />
             <HomeFooter />
         
         </div>
