@@ -8,7 +8,7 @@ const HomeFooter = () => {
               
             </div>
             <div className="col-lg-2 col-md-6 col-sm-6 social-widget">
-              <div className="single-footer-widget">
+              <div className="single-footer-widget" style={{marginLeft:'609px', marginTop:'30px'}}>
                 <div className="no-socia ld-flex align-items-center">
                 <a href="#">
                 <img className="telepon" src="../../public/img/home/Group 103.png" alt="" />

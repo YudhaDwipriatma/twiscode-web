@@ -20,7 +20,7 @@ const HomeBanner = () => (
             data-wow-delay="0.5s"
           >
             <hr />
-            <p>
+            <p className="text-banner">
               Bulid a beautiful, modern website and mobile with flexible components built from scratch
             </p>
           </div>

@@ -39,11 +39,11 @@ export default class Responsive extends Component {
     };
     return (
       
-      <section className="">
+      <section className="section-kerjasama">
       <div className="container-fluid">
       <div className="slider">
         <h2 className="custom text-center"> Our Customers are our biggest fans. </h2>
-        <p className="text-muted text-center">Here are few nice things folks have said about our project over the years.</p>
+        <p className="text-muted text-center text-kerja">Here are few nice things folks have said about our project over the years.</p>
         <Slider {...settings}>
           <div className="img-slider" style={{height:'100px', width:'100px'}}>
             <img src="../../public/img/a2.png" alt="" className="img-fluid mw-100 mh-100" />

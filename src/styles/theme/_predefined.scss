@@ -70,6 +70,7 @@
 .section-gap {
   padding: 140px 0;
   margin-top: -180px;
+  background-image: url(../../public/img/home/background_tengah.png);
   
   @media (max-width: 991px) {
     padding: 70px 0;
@@ -97,12 +98,12 @@
     text-transform: capitalize;
     margin-bottom: 10px;
   }
-  h2 {
-    font-size: 42px;
-    font-weight: 500;
-    text-transform: capitalize;
-    line-height: 50px;
-    text-align: center;
+  // h2 {
+  //   font-size: 42px;
+  //   font-weight: 500;
+  //   text-transform: capitalize;
+  //   line-height: 50px;
+  //   text-align: center;
     @media (max-width: 1024px) {
       font-size: 40px;
     }
@@ -132,7 +133,6 @@
         }
       }
     }
-  }
 }
 
 .alert-msg {
@@ -283,27 +283,67 @@
 }
 
 .work{
-  font-size: 42px;
-    font-weight: 500;
-    text-transform: capitalize;
-    line-height: 50px;
-    text-align: center;
+  width: 321px;
+  height: 48px;
+  object-fit: contain;
+  font-family: HKGrotesk;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #393939;
+  margin-left: 401px;
 }
 
 .custom{
-  font-size: 42px;
-    font-weight: 500;
-    text-transform: capitalize;
-    line-height: 50px;
-    text-align: center;
+  width: 640px;
+  height: 48px;
+  object-fit: contain;
+  font-family: HKGrotesk;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #393939;
+  margin-left: 322px;
 }
 
 .team{
-  font-size: 42px;
-    font-weight: 500;
-    text-transform: capitalize;
-    line-height: 50px;
-    text-align: center;
+  width: 317px;
+  height: 48px;
+  object-fit: contain;
+  font-family: HKGrotesk;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #393939;
+  margin-left: 255px;
+}
+
+.text-team{
+  width: 612px;
+  height: 66px;
+  object-fit: contain;
+  font-family: HKGrotesk;
+  font-size: 28px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.18;
+  letter-spacing: normal;
+  text-align: center;
+  color: #62713e;
+  margin-left: 110px;
 }
 
 .img-contact{
@@ -353,7 +393,7 @@ h2.no-span {
   height: 99px;
   object-fit: contain;
   font-family: HKGrotesk;
-  font-size: 28px;
+  font-size: 25px;
   font-weight: 300;
   font-style: normal;
   font-stretch: normal;
@@ -363,4 +403,106 @@ h2.no-span {
   color: #62713e;
   margin-left: 210px;
   margin-top: 33px;
+}
+
+.path-2{
+  object-fit: contain;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  box-shadow: 7px 5px 30px 0 rgba(54, 54, 54, 0.27);
+  background-color: #ffffff;
+}
+
+.about-us{
+  width: 190px;
+  height: 48px;
+  object-fit: contain;
+  font-family: HKGrotesk;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #393939; 
+  margin-left: 181px;
+}
+
+.text-about{
+  width: 1138px;
+  height: 109px;
+  object-fit: contain;
+  font-family: HKGrotesk;
+  font-size: 28px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.36;
+  letter-spacing: normal;
+  text-align: center;
+  color: #62713e;
+  margin-left: -279px;
+}
+
+.text-banner{
+  width: 610px;
+  height: 74px;
+  object-fit: contain;
+  font-family: HKGrotesk;
+  font-size: 28px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.27;
+  letter-spacing: normal;
+  text-align: left;
+  color: #62713e;
+  margin-top: 30px;
+}
+.count{
+  width: 544px;
+  height: 48px;
+  object-fit: contain;
+  font-family: HKGrotesk;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: center;
+  color: #393939;
+  margin-left: -71px;
+}
+
+.text-count{
+  width: 522px;
+  height: 71px;
+  object-fit: contain;
+  font-family: HKGrotesk;
+  font-size: 24px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.36;
+  letter-spacing: normal;
+  text-align: left;
+  color: #62713e;
+}
+
+.-text-loc{
+  width: 317px;
+  height: 48px;
+  object-fit: contain;
+  font-family: HKGrotesk;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #393939;
+  margin-left: 440px;
 }

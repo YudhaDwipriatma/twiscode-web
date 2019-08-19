@@ -61,7 +61,7 @@ export default class Example extends React.Component {
                   <NavLink to="/contact">CONTACT US</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink to="/">PRIVACY POLICY</NavLink>
+                  <NavLink to="/privacy">PRIVACY POLICY</NavLink>
                 </NavItem>
               </Nav>
             </Collapse>

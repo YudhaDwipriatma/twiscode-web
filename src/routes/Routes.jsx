@@ -24,6 +24,10 @@ const Contact = Loadable({
   loader: () => import('../containers/contact/Contact'),
   loading
 });
+const Privacy = Loadable({
+  loader: () => import('../containers/privacy/PrivacyPolice'),
+  loading
+});
 // const About = Loadable({
 //   loader: () => import('../containers/about/About'),
 //   loading
@@ -57,6 +61,11 @@ export default [
       {
         component: Contact,
         path: '/contact',
+        exact: true
+      },
+      {
+        component: Privacy,
+        path: '/privacy',
         exact: true
       },
       

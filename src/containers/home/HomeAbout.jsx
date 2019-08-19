@@ -9,8 +9,8 @@ const HomeAbout = () => (
         <div className=" col-lg-6 col-md-6" >
           <div className="section-title">
             
-              <h2 className="mb-4 text-center no-span">
-              About Us
+              <h2 className="mb-4 text-center no-span about-us">
+              ABOUT US
               </h2>
           </div>
           <div
@@ -18,7 +18,7 @@ const HomeAbout = () => (
             data-wow-duration=".8s"
             data-wow-delay=".3s"
           >
-            <p>
+            <p className="text-about">
               Twiscode is a developer company that's specializing in Mobile Apps, Website, and System. We cater to your every need and we also provide business consulting for design and develop online media applications brands your companies.
             </p>
           </div>
