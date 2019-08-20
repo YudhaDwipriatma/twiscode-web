@@ -1,13 +1,13 @@
 import React from 'react';
 import PrivacyPoliceHome from './PrivacyPoliceHome';
-import Header from '../../components/Header';
+import HomeFooter from '../home/HomeFooter';
 
 
 const PrivacyPolice = () => {
     return (
         <div>
-            <Header />
             <PrivacyPoliceHome />
+            <HomeFooter />
 
         </div>
     );
