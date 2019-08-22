@@ -58,17 +58,41 @@ const careersHome = () => {
          </div>
          <br/><br/><br/><br/>
          <div className="apply">
-           <h1>APPLY NOW</h1>
+           <h1>APPLY NOW!</h1>
+         </div>
+         <br/>
+         <div>
+         <form>
+              <label className="label-career" for="fname">Your Name (required)</label>
+              <input className="input-career" type="text" id="fname" name="fname" />
+<br/><br/>
+              <label className="label-career" for="fname">Your Email (required)</label>
+              <input className="input-career" type="text" id />
+  <br/><br/>
+              <label className="label-career" for="fname">Subject</label>
+              <input className="input-career" type="text" id="fname" name="fname" />
+              </form>
+        <br/><br/>
+        <form>
+              <label className="label-career" for="fname">Your Massage</label>
+              <input className="input-career-1" type="text" id="fname" name="fname" />
+        </form>
+        <br/>
+        <h1 className="attach">Attach Your CV</h1>
+        <button type="button" className="btn button-career">Choose File</button>
+             <p className="enter-career">No File Chosen</p>
+             <br/><br/>
+             <button type="button" className="btn button-career-1">SEND</button>
          </div>
          <div className="careers-home">
              
       
-   
+   </div>
       
        </div>
        </div>
      </div>
-   </div>
+
  </section>
         </div>
     );
