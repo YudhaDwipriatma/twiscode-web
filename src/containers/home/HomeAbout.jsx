@@ -9,7 +9,7 @@ const HomeAbout = () => (
         <div className=" col-lg-6 col-md-6" >
           <div className="section-title">
             
-              <h2 className="mb-4 text-center no-span about-us">
+              <h2 className="mb-4 text-center about-us hr-text">
               ABOUT US
               </h2>
           </div>

@@ -283,6 +283,35 @@
   }
 }
 
+.hr-text {
+  line-height: 1em;
+  position: relative;
+  outline: 0;
+  border: 0;
+  color: black;
+  text-align: center;
+  height: 1.5em;
+  opacity: .5;
+  &:before {
+    content: '';
+    background-color: #9CCC36;
+    position: absolute;
+    left: -98px;
+    top: 34%;
+    width: 50%;
+    height: 4px;
+  }
+  &:after {
+    content: '';
+    background-color: #9CCC36;
+    position: absolute;
+    left: 193px;
+    top: 34%;
+    width: 50%;
+    height: 4px;
+  }
+}
+
 .work{
   width: 321px;
   height: 48px;
