@@ -5,7 +5,7 @@ const HomeService = () => {
         <div>
             <section className="page-section" id="services">
     <div className="container"style={{marginTop:'-87px'}} >
-      <h2 className="work text-center mt-0 no-span">HOW WE WORK?</h2>
+      <h2 className="work text-center mt-0 hr-text-how">HOW WE WORK?</h2>
       <div className="row">
         <div className="col-lg-3 col-md-6 text-center">
           <div className="mt-5 logo-satu">
