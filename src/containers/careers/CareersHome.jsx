@@ -65,17 +65,17 @@ const careersHome = () => {
          <form>
               <label className="label-career" for="fname">Your Name (required)</label>
               <input className="input-career" type="text" id="fname" name="fname" />
-<br/><br/>
+              <br/><br/>
               <label className="label-career" for="fname">Your Email (required)</label>
               <input className="input-career" type="text" id />
-  <br/><br/>
+               <br/><br/>
               <label className="label-career" for="fname">Subject</label>
               <input className="input-career" type="text" id="fname" name="fname" />
               </form>
         <br/><br/>
         <form>
               <label className="label-career" for="fname">Your Massage</label>
-              <input className="input-career-1" type="text" id="fname" name="fname" />
+              <textarea className="input-career-1" type="text" id="fname" name="fname" />
         </form>
         <br/>
         <h1 className="attach">Attach Your CV</h1>
