@@ -3,7 +3,6 @@ import CareersHome from './CareersHome';
 import CarrersTabs from './CarrersTabs';
 import HomeFooter from '../home/HomeFooter';
 
-
 const Contact = () => {
     return (
         <div>
