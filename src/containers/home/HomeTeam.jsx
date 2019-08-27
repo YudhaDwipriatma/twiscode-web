@@ -7,7 +7,16 @@ export default class Responsive extends Component {
     activeTeamId: 1
   }
 
+  handleClick = (teamId) => {
+    this.setState({
+      activeTeamId:teamId
+    })
+    
+  }
+
   render() {
+  console.log(this.state.activeTeamId);
+    
     var settings = {
       dots: false,
       infinite: false,
@@ -52,7 +61,7 @@ export default class Responsive extends Component {
       <div className="wrapper-team">
         <img className="tim" src="../../public/img/home/tim.png" alt=""/>
       <div className="slider">
-        <h2 className="team text-center no-span"> MEET OUR TEAM. </h2>
+        <h2 className="team text-center hr-text-team"> MEET OUR TEAM. </h2>
         <p className="text-muted text-center text-team">We have teams of great developers ready to help you grow your business</p>
 
     
@@ -61,7 +70,7 @@ export default class Responsive extends Component {
         <Slider {...settings} className="button-team">
         {
           team.map((data)=>(
-          <div className={`card-body ${activeTeamId === data.id ? 'active' : ''}`} key={data.id} onClick={this}>
+          <div className={`card-body ${activeTeamId === data.id ? 'active' : ''}`} key={data.id} onMouseEnter={this.handleClick.bind(this,data.id)}>
             <img className="card-body"  width="150px" src={data.image} alt=""/> 
             <h2 className="text-center username">{data.name}</h2>
             <p className="text-muted text-center title">{data.title}</p>

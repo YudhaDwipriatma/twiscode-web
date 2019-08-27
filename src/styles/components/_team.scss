@@ -1,0 +1,26 @@
+.slick-slide{
+    .card-body{
+        .username, .title{
+            display: none;
+        }
+        img{
+            -webkit-transition-property: width; /* Safari */
+                  -webkit-transition-duration: 5s; /* Safari */
+                  transition-property: scale;
+                  transition-duration: 5s;
+        }
+        &.active{
+            .username, .title{
+            display: block
+         } 
+            img{
+                  transform: scale(1.2);
+      
+            }
+        }
+    }
+}
+
+.slick-track{
+    margin-left: -22px;
+}

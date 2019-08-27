@@ -9,6 +9,7 @@ import HomeSlide from './HomeSlide';
 import HomeTeam from './HomeTeam';
 import HomeNomer from './HomeNomer';
 import HomeFooter from './HomeFooter';
+import ScrollUp from './ScrollUp';
 
 const Home = () => (
   <div>
@@ -26,6 +27,7 @@ const Home = () => (
     <HomeTeam />
     <HomeNomer />
     <HomeFooter />
+    {/* <ScrollUp /> */}
   </div>
 );
 
