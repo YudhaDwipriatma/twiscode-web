@@ -13,7 +13,7 @@
 
 .nav-link {
   display: block;
-  padding: $nav-link-padding-y $nav-link-padding-x;
+  padding: 0.5rem 10px;
 
   @include hover-focus {
     text-decoration: none;
@@ -31,6 +31,8 @@
 
 .nav-tabs {
   border-bottom: $nav-tabs-border-width solid $nav-tabs-border-color;
+  margin-left: -299px;
+  width: 10000px;
 
   .nav-item {
     margin-bottom: -$nav-tabs-border-width;

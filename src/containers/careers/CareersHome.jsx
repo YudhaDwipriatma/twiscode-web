@@ -84,11 +84,6 @@ const careersHome = () => {
              <br/><br/>
              <button type="button" className="btn button-career-1">SEND</button>
          </div>
-         <div className="careers-home">
-             
-      
-   </div>
-      
        </div>
        </div>
      </div>
