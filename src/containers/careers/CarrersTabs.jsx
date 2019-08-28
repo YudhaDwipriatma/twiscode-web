@@ -37,6 +37,13 @@ class CarrersTabs extends Component {
                 <div>
                 <p className="careers-p">Join our team now!</p>
             </div>
+            <div className="careers-pic-1">
+            <br/><br/>
+             <img  src="/public/img/home/flamenco-come-back-later.png" alt="" width="100px"/>
+            </div>
+            <div className="line-careers">
+              <hr/>
+            </div>
     <section className="tabs">
         <Nav tabs>
           <NavItem>
