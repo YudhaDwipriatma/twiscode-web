@@ -17,11 +17,11 @@ const PrivacyPoliceHome = () => {
          <div>
            <p className="contact-p">Twiscode Pte. Ltd Privacy Policy</p>
          </div>
-      
+          <div className="privacy">
          <div className="contact-pic-1">
      
            <br/><br/>
-             <img  src="../../public/img/privacy/sign-in-3.png" alt="" width="100px"/>
+             <img  src="../../public/img/privacy/sign-in-3.png" alt="" width="200px"/>
              
          </div>
          <div className="line-contact">
@@ -74,6 +74,7 @@ const PrivacyPoliceHome = () => {
            </div>
          </div>
        </div>
+     </div>
      </div>
    </div>
 

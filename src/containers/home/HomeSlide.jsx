@@ -12,7 +12,7 @@ export default class SimpleSlider extends Component {
     };
     return (
       <div className="text-center section-slide">
-        <div className="card-slide">
+        <div className="card-slide mx-auto">
         <Slider {...settings}>
         {/* <div className="card mb-3 path-2"> */}
             <div className="card mb-3 path-2" >

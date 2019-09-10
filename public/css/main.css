@@ -2121,7 +2121,7 @@ body.mobile-nav-active #mobile-nav {
 body.mobile-nav-active #mobile-nav-toggle {
   color: #fff; }
 
-.home-banner-area {
+/* .home-banner-area {
   background: #f7f7f7;
   position: relative; }
   .home-banner-area .fullscreen {
@@ -2133,7 +2133,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     padding-left: 21%; }
     @media (max-width: 1480px) {
       .home-banner-area .container-fluid {
-        padding-left: 15px;
+        padding-left: 10px;
         max-width: 1140px; } }
     @media (max-width: 1199px) {
       .home-banner-area .container-fluid {
@@ -2191,7 +2191,7 @@ body.mobile-nav-active #mobile-nav-toggle {
         .home-banner-area .social-icons ul li a:hover {
           color: #f81c1c; }
         .home-banner-area .social-icons ul li a i {
-          margin-right: 8px; }
+          margin-right: 8px; } */
 
 .banner-area {
   background: url(../img/banner/common-banner.jpg) no-repeat;

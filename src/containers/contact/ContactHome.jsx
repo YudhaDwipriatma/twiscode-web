@@ -12,14 +12,18 @@ const ContactHome = () => {
            <h2 >
              Contact Us
            </h2>
-           
          </div>
+         <div className="row">
+            <div className="col-12">
+            <p className="contact-p">
+               <span>We'e love to hear from you! Just send us a message!</span>
+           
+               <p> We are located in the heart of Surabaya, Indonesia.</p></p>
+              </div>           
+           </div> {/*
          <div>
-           <p className="contact-p">
-               We'e love to hear from you! Just send us a message!
            
-               We are located in the heart of Surabaya, Indonesia.</p>
-         </div>
+         </div> */}
       
          <div className="contact-pic-1">
      

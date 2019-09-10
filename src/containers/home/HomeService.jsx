@@ -10,7 +10,7 @@ const HomeService = () => {
         <div className="col-lg-3 col-md-6 text-center">
           <div className="mt-5 logo-satu">
             <i className="fas fa-4x text-primary mb-4"><img className="" src="../../public/img/sign-up-4.png" alt="" width="150px"/></i>
-            <h3 className="h4 mb-2 service-satu">Brainstrom & Requipment Greetings</h3>
+            <h3 className="h4 mb-3 service-satu">Brainstrom & Requipment Greetings</h3>
           </div>
         </div>
         <div className="col-lg-3 col-md-6 text-center">

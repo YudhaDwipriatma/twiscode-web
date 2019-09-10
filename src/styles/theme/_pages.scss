@@ -11,7 +11,7 @@
   position: relative;
   z-index: 10;
   text-align: center;
-  
+
   @media (max-width: 767px) {
     margin-top: 100px;
   }
@@ -399,7 +399,7 @@
   border: none;
 }
 
-.blog-pagination .page-link i{
+.blog-pagination .page-link i {
   font-weight: 600;
 }
 
@@ -432,7 +432,7 @@
     }
   }
   .search-widget {
-    form.search-form input[type="text"] {
+    form.search-form input[type='text'] {
       color: $white;
       padding: 10px 22px;
       font-size: 14px;
@@ -478,7 +478,7 @@
       }
     }
     form.search-form::after {
-      content: "";
+      content: '';
       clear: both;
       display: table;
     }
@@ -709,7 +709,7 @@
   }
   .arrow {
     position: absolute;
-    i{
+    i {
       font-size: 20px;
       font-weight: 600;
     }
@@ -896,7 +896,7 @@
     color: #777;
   }
 }
-.counter-project{
+.counter-project {
   width: 78px;
   height: 54px;
   object-fit: contain;
@@ -912,39 +912,7 @@
   margin-right: 109px;
 }
 
-.text-project{
-  width: 122px;
-  height: 36px;
-  object-fit: contain;
-  font-family: HKGrotesk;
-  font-size: 30px;
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.2;
-  letter-spacing: normal;
-  text-align: left;
-  color: #62713e;
-  
-}
-
-.counter-client{
-  width: 78px;
-  height: 54px;
-  object-fit: contain;
-  font-family: HKGrotesk;
-  font-size: 45px;
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.2;
-  letter-spacing: normal;
-  text-align: left;
-  color: #565656;
-  margin-right: 109px;
-}
-
-.text-client{
+.text-project {
   width: 122px;
   height: 36px;
   object-fit: contain;
@@ -959,7 +927,7 @@
   color: #62713e;
 }
 
-.counter-mobile{
+.counter-client {
   width: 78px;
   height: 54px;
   object-fit: contain;
@@ -975,7 +943,38 @@
   margin-right: 109px;
 }
 
-.text-mobile{
+.text-client {
+  width: 122px;
+  height: 36px;
+  object-fit: contain;
+  font-family: HKGrotesk;
+  font-size: 30px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #62713e;
+}
+
+.counter-mobile {
+  width: 78px;
+  height: 54px;
+  object-fit: contain;
+  font-family: HKGrotesk;
+  font-size: 45px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #565656;
+  margin-right: 109px;
+}
+
+.text-mobile {
   width: 170px;
   height: 36px;
   object-fit: contain;
@@ -990,7 +989,7 @@
   color: #62713e;
 }
 
-.counter-web{
+.counter-web {
   width: 78px;
   height: 54px;
   object-fit: contain;
@@ -1006,7 +1005,7 @@
   margin-right: 109px;
 }
 
-.text-web{
+.text-web {
   width: 122px;
   height: 36px;
   object-fit: contain;
@@ -1022,21 +1021,21 @@
   margin-left: 17px;
 }
 
-.count-client{
+.count-client {
   margin-left: 0px;
 }
 
-.counters{
+.counters {
   width: 748px;
   margin-left: 147px;
   margin-top: -255px;
 }
 
-.img-count{
+.img-count {
   margin-top: -94px;
 }
 
-.service-satu{
+.service-satu {
   width: 259px;
   height: 33px;
   object-fit: contain;
@@ -1052,7 +1051,7 @@
   margin-top: 20px;
 }
 
-.service-dua{
+.service-dua {
   width: 211px;
   height: 71px;
   object-fit: contain;
@@ -1068,7 +1067,7 @@
   margin-top: 20px;
 }
 
-.service-tiga{
+.service-tiga {
   width: 117px;
   height: 71px;
   object-fit: contain;
@@ -1085,7 +1084,7 @@
   margin-top: 20px;
 }
 
-.service-empat{
+.service-empat {
   width: 103px;
   height: 33px;
   object-fit: contain;
@@ -1099,10 +1098,10 @@
   text-align: left;
   color: #4e4e4e;
   margin-left: 164px;
-  margin-top: 20px
+  margin-top: 20px;
 }
 
-.text-kerja{
+.text-kerja {
   width: 917px;
   height: 33px;
   object-fit: contain;
@@ -1118,16 +1117,16 @@
   margin-left: 221px;
 }
 
-.tim{
+.tim {
   width: 327px;
   height: 387px;
   object-fit: contain;
   margin-right: 835px;
-  margin-left: -329px;
+  margin-left: -429px;
   margin-bottom: -232px;
 }
 
-.text-small{
+.text-small {
   width: 154px;
   height: 24px;
   object-fit: contain;

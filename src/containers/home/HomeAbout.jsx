@@ -3,7 +3,6 @@ import React from 'react';
 
 const HomeAbout = () => (
   <section className="about-area section-gap">
-   
     <div className="container">
       <div className="row align-items-center justify-content-start">
         <div className=" col-lg-6 col-md-6" >

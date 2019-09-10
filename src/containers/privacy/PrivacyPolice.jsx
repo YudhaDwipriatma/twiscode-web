@@ -7,7 +7,7 @@ const PrivacyPolice = () => {
     return (
         <div>
             <PrivacyPoliceHome />
-            <HomeFooter />
+            {/* <HomeFooter /> */}
 
         </div>
     );

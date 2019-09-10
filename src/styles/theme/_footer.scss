@@ -28,33 +28,28 @@
   margin-top: -130px
 }
 .footer-top{
-  width: 1351px;
-  height: 188px;
-  object-fit: contain;
   background-color: #272926;
+  padding: 30px;
+  margin-bottom:-30px;
 }
 .footer-img{
   margin-left: 1200px;
   margin-bottom: -130px;
 }
-.footer-buttom-1 {
-  
-  margin-bottom: -15px;
-  background-color: black;
-  width: 1351px;
-  margin-top: -21px;
-  padding-top: 6px;
-  padding-bottom: -37px;
-  
+.footer{
+  padding-left: 0px;
+  padding-right:0px;
 }
 
 .footer-buttom {
   display: flex;
   flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
-  background-color: black;
-  
+  background-color: #040303;
+  padding:30px;
+}
+.name{
+  color:#ffffff;
+  align-self: center;
 }
 .footer-link{
   position: relative;

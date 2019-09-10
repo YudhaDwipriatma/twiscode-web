@@ -71,36 +71,36 @@ class HomeProject extends Component {
   render() {
     return (
       <section className="page-section" id="services">
-        <div className="container" style={{marginRight:'242px'}}>
-
-        <div className="banner-img offset-lg-1 col-lg-12 col-md-6">
-        <h2 className="text-left mt-0 count">Stay focused on your business</h2>
-        <p className="text-muted col-md-4 text-count">Bringin business ideas to life through use of technology and design.</p>
-            <img margin-top="90px" className="img-fluid img-count" src="/public/img/icon2.png" width="400px" alt="" />
+        <div className="container" >
+        <div className="banner-img ">
+        <h2 className="text-left count">Stay focused on your business</h2>
+        <p className="text-left text-count">Bringin business ideas to life through use of technology and design.</p>
+            <img className="img-fluid img-count" src="/public/img/icon2.png" width="300px" alt="" />
           </div>
         </div>
+
+        <div className="container" style={{marginRight:'320px'}}  >
         <div className="row counters">
-        <div className="col-lg-3 col-6 text-center count-project">
+        <div className="col-lg-3 col-5 text-center count-project">
           <span data-toggle="counter-up" className="counter-project">{this.state.counterProject}</span>
           <p className="text-project">Projects</p>
         </div>
             <div className="garis"></div>
-        <div className="col-lg-3 col-6 text-center count-client">
+        <div className="col-lg-3 col-5 text-center count-client">
           <span data-toggle="counter-up" className="counter-client">{this.state.counterClient}</span>
           <p className="text-client">Clients</p>
         </div>
             <div className="garis2"></div>
-        <div className="col-lg-3 col-6 text-center count-mobile">
+        <div className="col-lg-3 col-5 text-center count-mobile">
           <span data-toggle="counter-up" className="counter-mobile">{this.state.counterMobile}</span>
           <p className="text-mobile">Mobile Apps</p>
         </div>
               <div className="garis3"></div>
-        <div className="col-lg-3 col-6 text-center count-web" style={{marginLeft:'-28px'}}>
+        <div className="col-lg-3 col-5 text-center count-web" style={{marginLeft:'-28px'}}>
           <span data-toggle="counter-up" className="counter-web">{this.state.counterWeb}</span>
           <p className="text-web">Websites</p>
         </div>
-
-      </div>
+        </div></div>
     </section>
     );
   }

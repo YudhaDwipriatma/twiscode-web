@@ -2,31 +2,31 @@
 import React from 'react';
 import HomeBanner from './HomeBanner';
 import HomeAbout from './HomeAbout';
-import HomeService from './HomeService'; 
+import HomeService from './HomeService';
 import HomeKerjasama from './HomeKerjasama';
 import HomeProject from './HomeProject';
 import HomeSlide from './HomeSlide';
 import HomeTeam from './HomeTeam';
 import HomeNomer from './HomeNomer';
 import HomeFooter from './HomeFooter';
-import ScrollUp from './ScrollUp';
+// import ScrollUp from './ScrollUp';
 
 const Home = () => (
   <div>
     <HomeBanner />
-    <HomeAbout />
+     <HomeAbout />
     <HomeService />
-    <br/>
-    <br/>
-    <br/>
-    <HomeKerjasama /> 
-    <HomeSlide /> 
+    <br />
+    <br />
+    <br />
+    <HomeKerjasama />
+    <HomeSlide />
     <HomeProject />
-    <br/>
-    <br/>
+    <br />
+    <br />
     <HomeTeam />
     <HomeNomer />
-    <HomeFooter />
+    {/* <HomeFooter /> */}
     {/* <ScrollUp /> */}
   </div>
 );

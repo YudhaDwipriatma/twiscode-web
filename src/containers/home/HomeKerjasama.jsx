@@ -40,7 +40,7 @@ export default class Responsive extends Component {
     return (
       
       <section className="section-kerjasama">
-      <div className="container-fluid">
+      <div className="container">
       <div className="slider">
         <h2 className="custom text-center"> Our Customers are our biggest fans. </h2>
         <p className="text-muted text-center text-kerja">Here are few nice things folks have said about our project over the years.</p>

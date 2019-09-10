@@ -41,6 +41,8 @@
 .contact-home{
   margin-left: -85px;
 }
+
+
 .line-contact hr{
   width: 1014px;
   margin-top: 1rem;
@@ -51,8 +53,8 @@
 }
 .contact-pic-1 img{
     margin-right: 10px;
-    margin-left: -235px;
-    margin-top: -85px;
+    margin-left: -245px;
+    margin-top: -165px;
     margin-bottom: -49px;
   }
 .contact-us h2{
@@ -63,10 +65,16 @@
     text-align: center;
 }
 .contact-p{
-
+    margin-top:20px;
     object-fit: contain;
     font-family: HKGrotesk;
       letter-spacing: normal;
     text-align: center;
     color: #62713e;
+}
+.contact-p span {
+  font-size: 24px;
+}
+.contact-p p {
+  font-size: 20px;
 }
