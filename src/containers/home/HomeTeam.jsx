@@ -1,27 +1,26 @@
-import React, { Component } from "react";
-import Slider from "react-slick";
-import { team } from '../../helpers/data'
+import React, { Component } from 'react';
+import Slider from 'react-slick';
+import { team } from '../../helpers/data';
 
 export default class Responsive extends Component {
   state = {
     activeTeamId: 1
-  }
+  };
 
-  handleClick = (teamId) => {
+  handleClick = teamId => {
     this.setState({
-      activeTeamId:teamId
-    })
-    
-  }
+      activeTeamId: teamId
+    });
+  };
 
   render() {
-  console.log(this.state.activeTeamId);
-    
+    console.log(this.state.activeTeamId);
+
     var settings = {
       dots: false,
       infinite: false,
       speed: 500,
-      slidesToShow: 4, 
+      slidesToShow: 4,
       slidesToScroll: 4,
       initialSlide: 0,
       responsive: [
@@ -52,37 +51,49 @@ export default class Responsive extends Component {
       ]
     };
 
-    const { activeTeamId} =this.state;
+    const { activeTeamId } = this.state;
     return (
       <section className="page-section" id="services">
+        <section className="">
+          <div className="container-fluid">
+            <div className="wrapper-team">
+              <img className="tim" src="../../public/img/home/tim.png" alt="" />
+              <div className="slider">
+                <h2 className="team text-center hr-text-team">
+                  {' '}
+                  MEET OUR TEAM.{' '}
+                </h2>
+                <p className="text-muted text-center text-team">
+                  We have teams of great developers ready to help you grow your
+                  business
+                </p>
 
-      <section className="">
-      <div className="container-fluid">
-      <div className="wrapper-team">
-        <img className="tim" src="../../public/img/home/tim.png" alt=""/>
-      <div className="slider">
-        <h2 className="team text-center hr-text-team"> MEET OUR TEAM. </h2>
-        <p className="text-muted text-center text-team">We have teams of great developers ready to help you grow your business</p>
-
-    
-    
-    
-        <Slider {...settings} className="button-team">
-        {
-          team.map((data)=>(
-          <div className={`card-body ${activeTeamId === data.id ? 'active' : ''}`} key={data.id} onMouseEnter={this.handleClick.bind(this,data.id)}>
-            <img className="card-body"  width="150px" src={data.image} alt=""/> 
-            <h2 className="text-center username">{data.name}</h2>
-            <p className="text-muted text-center title">{data.title}</p>
+                <Slider {...settings} className="button-team">
+                  {team.map(data => (
+                    <div
+                      className={`card-body ${
+                        activeTeamId === data.id ? 'active' : ''
+                      }`}
+                      key={data.id}
+                      onMouseEnter={this.handleClick.bind(this, data.id)}
+                    >
+                      <img
+                        className="card-body"
+                        width="150px"
+                        src={data.image}
+                        alt=""
+                      />
+                      <h2 className="text-center username">{data.name}</h2>
+                      <p className="text-muted text-center title">
+                        {data.title}
+                      </p>
+                    </div>
+                  ))}
+                </Slider>
+              </div>
+            </div>
           </div>
-
-          ))
-        }
-        </Slider>
-      </div>
-      </div>
-        </div>
-          </section>
+        </section>
       </section>
     );
   }
