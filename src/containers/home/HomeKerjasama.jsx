@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import Slider from "react-slick";
+import React, { Component } from 'react';
+import Slider from 'react-slick';
 
 export default class Responsive extends Component {
   render() {
@@ -38,8 +38,8 @@ export default class Responsive extends Component {
       ]
     };
     return (
-      
       <section className="section-kerjasama">
+<<<<<<< HEAD
       <div className="container">
       <div className="slider">
         <h2 className="custom text-center"> Our Customers are our biggest fans. </h2>
@@ -114,6 +114,173 @@ export default class Responsive extends Component {
         
       </div>
       </div>
+=======
+        <div className="container-fluid">
+          <div className="slider">
+            <h2 className="custom text-center">
+              {' '}
+              Our Customers are our biggest fans.{' '}
+            </h2>
+            <p className="text-muted text-center text-kerja">
+              Here are few nice things folks have said about our project over
+              the years.
+            </p>
+            <Slider {...settings}>
+              <div
+                className="img-slider"
+                style={{ height: '100px', width: '100px' }}
+              >
+                <img
+                  src="../../public/img/a2.png"
+                  alt=""
+                  className="img-fluid mw-100 mh-100"
+                />
+              </div>
+              <div className="img-slider" style={{ height: '100px' }}>
+                <img
+                  src="../../public/img/a3.png"
+                  alt=""
+                  className="img-fluid mw-100 mh-100"
+                />
+              </div>
+              <div className="img-slider" style={{ height: '100px' }}>
+                <img
+                  src="../../public/img/home/aa.png"
+                  alt=""
+                  className="img-fluid mw-100 mh-100"
+                />
+              </div>
+              <div className="img-slider" style={{ height: '100px' }}>
+                <img
+                  src="../../public/img/b.png"
+                  alt=""
+                  className="img-fluid mw-100 mh-100"
+                />
+              </div>
+              <div>
+                <img
+                  src="../../public/img/d.png"
+                  alt=""
+                  className="img-fluid mw-100 mh-100"
+                />
+              </div>
+              <div>
+                <img
+                  src="../../public/img/da.png"
+                  alt=""
+                  className="img-fluid mw-100 mh-100"
+                />
+              </div>
+              <div>
+                <img
+                  src="../../public/img/home/lazada-01.png"
+                  alt=""
+                  className="img-fluid mw-100 mh-100"
+                />
+              </div>
+              <div>
+                <img
+                  src="../../public/img/n.png"
+                  alt=""
+                  className="img-fluid mw-100 mh-100"
+                />
+              </div>
+              <div>
+                <img
+                  src="../../public/img/q1.png"
+                  alt=""
+                  className="img-fluid mw-100 mh-100"
+                />
+              </div>
+              <div>
+                <img
+                  src="../../public/img/q2.png"
+                  alt=""
+                  className="img-fluid mw-100 mh-100"
+                />
+              </div>
+              <div>
+                <img
+                  src="../../public/img/q4.png"
+                  alt=""
+                  className="img-fluid mw-100 mh-100"
+                />
+              </div>
+
+              <div>
+                <img
+                  src="../../public/img/q6.png"
+                  alt=""
+                  className="img-fluid mw-100 mh-100"
+                />
+              </div>
+              <div>
+                <img
+                  src="../../public/img/q7.png"
+                  alt=""
+                  className="img-fluid mw-100 mh-100"
+                />
+              </div>
+              <div>
+                <img
+                  src="../../public/img/r.png"
+                  alt=""
+                  className="img-fluid mw-100 mh-100"
+                />
+              </div>
+              <div>
+                <img
+                  src="../../public/img/s.png"
+                  alt=""
+                  className="img-fluid mw-100 mh-100"
+                />
+              </div>
+              <div>
+                <img
+                  src="../../public/img/t.png"
+                  alt=""
+                  className="img-fluid mw-100 mh-100"
+                />
+              </div>
+              <div>
+                <img
+                  src="../../public/img/u5.png"
+                  alt=""
+                  className="img-fluid mw-100 mh-100"
+                />
+              </div>
+              <div>
+                <img
+                  src="../../public/img/u7.png"
+                  alt=""
+                  className="img-fluid mw-100 mh-100"
+                />
+              </div>
+              <div>
+                <img
+                  src="../../public/img/u8.png"
+                  alt=""
+                  className="img-fluid mw-100 mh-100"
+                />
+              </div>
+              <div>
+                <img
+                  src="../../public/img/Untitled-2.png"
+                  alt=""
+                  className="img-fluid mw-100 mh-100"
+                />
+              </div>
+              <div>
+                <img
+                  src="../../public/img/wa.png"
+                  alt=""
+                  className="img-fluid mw-100 mh-100"
+                />
+              </div>
+            </Slider>
+          </div>
+        </div>
+>>>>>>> facc21e5503ff42f2ecf8f6734c9d5f77e6ddc17
       </section>
     );
   }
